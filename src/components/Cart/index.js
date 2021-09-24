@@ -24,12 +24,12 @@ const Cart = ({cart}) => {
 
     return (
         <div className="cart-container">
-                <h3>Order summary</h3>
-                <h5>Items  Orders: {totalQuantity}</h5>
-                <p>total Price: {total}</p>
-                <p>Shipping: {shipping}</p>
-                <p>tax: {tax}</p>
-                <p>Grand Total: {grandTotal}</p>
+                <h2>Order summary</h2>
+                <p><strong>Items  Orders:</strong> {totalQuantity}</p>
+                <p><strong>total Price:</strong> {total}</p>
+                <p><strong>Shipping:</strong> {shipping}</p>
+                <p><strong>tax:</strong> {tax}</p>
+                <p><strong>Grand Total:</strong> {grandTotal}</p>
         </div>
     );
 };
